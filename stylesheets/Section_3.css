@@ -1,0 +1,21 @@
+.text {
+    width: 85%;
+    margin: 0 auto;
+    font-family: "Poppins";
+    color: #777;
+  }
+  .text p {
+    margin: 0 0 1em;
+    font-size: 0.875rem;
+    word-spacing: 1.5px;
+  }
+
+  @media screen and (min-width: 980px) {
+    .text {
+        width: 80%;
+      }
+      
+      .text p {
+        font-size: 1.02rem;
+      }
+  }

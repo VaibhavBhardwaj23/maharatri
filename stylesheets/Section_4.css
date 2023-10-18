@@ -1,0 +1,35 @@
+.section_4 {
+  width: 80%;
+  margin: auto;
+}
+.partition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.partition img {
+  width: 55px;
+}
+.partition_txt {
+  padding: 1em;
+}
+.partition_txt h3 {
+  font-family: "Lora";
+  color: #44233b;
+  font-size: 1.4rem;
+}
+.partition_txt p {
+  font-family: "Poppins";
+  color: #777;
+  line-height: 2;
+  font-size: 1rem;
+}
+@media screen and (min-width: 980px) {
+  .section_4 {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 9px 35px 0 rgba(26, 47, 106, 0.07);
+    padding: 0.5em;
+    border-radius: 1em;
+  }
+}

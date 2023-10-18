@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  height: 100vh;
+}
+.hero_section {
+  background-image: url("./assets/Hero_Image.jpg");
+  width: 100%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1em;
+  position: relative;
+}
+.navigation {
+  /* height: 100px; */
+  margin: auto;
+  background-color: white;
+  display: flex;
+}
+.hero_heading {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* outline: 1px solid red; */
+  font-size: 1.8em;
+  color: white;
+  font-family: "Lora", serif;
+  font-weight: 700;
+}
+
+.hide {
+  display: none;
+}
+.options {
+  /* width: 30%; */
+  background-color: white;
+  position: absolute;
+  height: auto;
+  bottom: -9%;
+
+  width: 60%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  padding: 1.5em;
+  font-family: "Poppins";
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.options_list {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  color: #7e4555;
+  font-weight: 700;
+  flex-wrap: wrap;
+}
+.options_list p {
+  margin: 0 0.5em;
+  width: max-content;
+}
+
+
+@media screen and (min-width: 700px) {
+  .hero_section {
+    height: 70%;
+  }
+  .options {
+    width: max-content;
+    bottom: -7%;
+  }
+  .sec_2_img {
+    width: 100%;
+  }
+}
+
+
+
